@@ -8,14 +8,71 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face{
+    font-family: 'open_sanslight';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+    font-family: "open_sanslight";
+}
 footer
 {
-	background: #000;
-	font-family: "open_sansregular";
-	padding-top: 30px;
+    background: #000;
 	padding-bottom: 20px;
-	margin-right: auto;
-	margin-left: auto;
-	color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    text-align: center;
+}
+footer p
+{
+    color: #fff;
+    opacity: 0.3;
+}
+footer p a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.datos_itm
+{
+    background: url('../img/dark-bg.png') repeat;
+    color: #fff;
+    font-size: 24px;
+    padding: 80px 0px;
+    text-align: center;
+}
+.datos_itm .datos
+{
+    margin-bottom: 50px;
+}
+.datos_itm .social a {
+    background: #181818;
+    border-radius: 30px;
+    height: 30px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px 15px;
+    width: 20px !important;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.datos_itm .social a img{
+    vertical-align: middle;
+}
+.datos_itm .social a.facebook:hover {
+    background: #4470CF;
+}
+.datos_itm .social a.google:hover {
+    background: #DA2713;
 }
