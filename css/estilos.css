@@ -1,14 +1,4 @@
 @font-face{
-    font-family: 'open_sansregular';
-    src: url('../fonts/OpenSans-Regular-webfont.eot');
-    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
-         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face{
     font-family: 'open_sanslight';
     src: url('../fonts/OpenSans-Light-webfont.eot');
     src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -21,6 +11,7 @@
 body
 {
     font-family: "open_sanslight";
+    text-align: center;
 }
 footer
 {
@@ -28,8 +19,7 @@ footer
 	padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 30px;
-    text-align: center;
+    padding-top: 30px
 }
 footer p
 {
@@ -41,13 +31,43 @@ footer p a
     color: #fff;
     text-decoration: none;
 }
+#webinarios
+{
+    background: #fff;
+}
+#webinarios h1 span
+{
+    color: #000;
+    font-size: 84px;
+    font-weight: normal;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+#webinarios h3
+{
+    background: url('../img/yellow-v.png') no-repeat center top;
+    margin-bottom: 60px;
+    padding-top: 26px;
+}
+#webinarios h3 span
+{
+    background: #FFC000;
+    border-bottom: double 8px #fff;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 31px;
+    padding: 10px;
+}
+
+
+
 .datos_itm
 {
     background: url('../img/dark-bg.png') repeat;
     color: #fff;
     font-size: 24px;
     padding: 80px 0px;
-    text-align: center;
 }
 .datos_itm .datos
 {
