@@ -1,0 +1,55 @@
+/* inicio de header */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.header {
+	height: 100vh;
+}
+
+header {
+	height: 60px;
+	background-color: #ffcd10;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header img {
+	height: 45px;
+	margin-left: 40px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50px; 
+}
+
+.enlace {
+	color: #515151;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 0 25px;
+}
+
+.enlace:hover {
+	color: white;
+}
+/* fin de header */
+/* inicio de principal */
+
+.cabeza {
+	height: 80vh;
+	background-color: peru;
+}
+
