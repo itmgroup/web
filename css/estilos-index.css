@@ -11,7 +11,7 @@ p{
 
 .bloque-principal {
 	height: 100vh;
-	background-color: peru;
+	background-color: #eee;
 	display: flex;
 	flex-direction: column;
 }
@@ -22,7 +22,7 @@ p{
 
 header {
 	flex-basis: 60px;
-	background: #ffcd10;
+	background: #fdd835;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -60,21 +60,53 @@ nav ul li a:hover{
 
 /* fin de header */
 /*************************************/
-
+/* inicio de portada */
 
 .portada {
-	color: white;
+	background-image: url(../img/bg1-compressor.jpg);
+	background-size: cover;
 	flex-grow: 1;
-
+	display: flex;
 }
 
-.portada p {
-	background: rgba(#000,.5);
-	color: gold;
+.imagen-sh {
+	height: auto;
+	width: 100vw;
+	flex-grow: auto;
+	background: rgba(0,0,0,.7);
+	display: flex;
+}
+	
+.fondo {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-left: 4%;
+	margin-bottom: 7%;
 }
 
+.cuadro-1, .cuadro-2 {
+	color: #000;
+	padding: 0 30px;
+	line-height: 2em;
+}
 
+.cuadro-1 {
+	background: #fdd835;
+	font-size: 2em;
+	border-radius: 3px 3px 0 0;
+}
 
+.cuadro-2 {
+	border-radius: 0 0 3px 3px;
+	background: #fff;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* fin de portada */
+/*************************************/
 
 
 
@@ -137,7 +169,7 @@ footer .campus:last-child {
 .desarrollador {
 	color: #333;
 	height: 44px;
-	background-color: #ffcd10;
+	background-color: #fdd835;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
