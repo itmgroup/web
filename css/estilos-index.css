@@ -1,6 +1,11 @@
 body {
-  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
+}
+
+p{
+	margin: 0;
+	padding: 0;
 }
 
 /* inicio de header */
@@ -20,25 +25,40 @@ header {
 }
 
 
-
-
+/*************************************/
+/* Inicio Footer */ 
 
 footer {
 	height: 290px;
 	background-image: url(../img/dark-bg.png);
-	color: white;
 	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: #cdcdcd;
+}
+footer .campus {
+	display: flex;
+	flex: auto;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
-	font-family: Open Sans;
-	font-size: 24px;
-	font-weight: 300;
+	border-right: 1px solid #333;
+	font-size: .9em;
+}
+footer .campus:last-child {
+	border-right: none;
+}
+.camp {
+	display: flex;
+}
+.campus-titulo{
+	color: #ffcd10;
+	font-size: 1.4em;
+	margin-bottom: 10px;
 }
 
-
-/********************/
+/* Fin Footer*/ 
+/*************************************/
 /* Inicio Desarrollado por @WilbortER*/ 
 
 .desarrollador {
@@ -50,6 +70,7 @@ footer {
 	align-items: center;
 }
 .desarrollador p{
+
 	margin: 0 5vw;
 	font-size: 14px;
 	font-family: Roboto;
@@ -61,7 +82,11 @@ footer {
 	text-decoration: none;
 	color: #333;
 }
+
 /* Fin Desarrollado por @WilbortER*/ 
+/**********************************/
+
+
 
 /*
 .bloque-1 {
