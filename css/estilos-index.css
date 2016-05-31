@@ -99,6 +99,7 @@ nav ul li a:hover{
 
 /* fin de portada */
 /*************************************/
+/* inicio de bloque 1 - texto llamativo */
 
 .bloque-1{
   height: 320px;
@@ -108,14 +109,12 @@ nav ul li a:hover{
   justify-content: center;
   align-items: center;
 }
-
 .div-bloque-1 {
   width: 550px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
-
 .bloque-1 h2 {
   font-family: "Roboto Slab", sans-serif;
   font-size: 2.0em;
@@ -124,7 +123,6 @@ nav ul li a:hover{
   font-weight: 700;
   margin: 0 0 12px 0;
 }
-
 .bloque-1 p{
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -133,34 +131,72 @@ nav ul li a:hover{
   line-height: 1.5em;
 	color: #616161;
 }
-
 .div-bloque-1 p:nth-child(2) {
   padding-bottom: 18px;
-  
 }
 
-
-
-
-
-
-
-
-
-
+/* fin de bloque 1 - texto llamativo */
+/*************************************/
 
 .bloque-2{
   height: 200px;
-  background-color: goldenrod;
+  background-color: darkblue;
 }
 
-.bloque-3{
-  height: 200px;
-  background-color: #eee;
-}
+
 
 /*************************************/
-/* Inicio sociales */ 
+/* Inicio de bloque 3 - testimonios */ 
+
+.bloque-3 {
+	display: flex;
+  height: 300px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  background-color: #fdd835;
+	font-family: 'Roboto Slab', sans-serif;
+	color: #000;
+}
+.div-bloque-3{
+	width: 80vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.div-bloque-3 img {
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	margin-left: 100px;
+}
+.div-bloque-3 .testimonio {
+	width: 40vw;
+}
+.div-bloque-3 .testimonio h2 {
+	font-size: 36px;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+}
+.div-bloque-3 .testimonio h3 {
+	font-size: 24px;
+	font-weight: 500;
+	margin: 0;
+}
+.div-bloque-3 .testimonio h4 {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 0 15px 0;
+	color: #515151;
+}
+.div-bloque-3 .testimonio p{
+	font-size: 16px;
+	font-weight: 300;
+}
+
+/* Fin de bloque 3 - testimonios */
+/*************************************/
+/* Inicio de sociales */ 
 
 .sociales {
   height: 280px;
@@ -226,9 +262,9 @@ nav ul li a:hover{
   color: white;
 }
 
-/* Fin sociales*/ 
+/* Fin de sociales*/ 
 /*************************************/
-/* Inicio Footer */ 
+/* Inicio de Footer */ 
 
 footer {
   height: 280px;
@@ -264,7 +300,7 @@ footer .campus:last-child {
   margin-bottom: 10px;
 }
 
-/* Fin Footer*/ 
+/* Fin de Footer*/ 
 /*************************************/
 /* Inicio Desarrollado por @WilbortER*/ 
 
