@@ -48,11 +48,23 @@ nav ul li a {
   text-decoration: none;
   color: #515151;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 15px;
+	transition: .1s  all;
+  -moz-transition: .1s  all;
+  -webkit-transition: .1s all;
+	padding-bottom: 5px;	
 }
 nav ul li a:hover{
-  margin-bottom: 2px;
-  border-bottom: 1px solid #515151;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.intranet {
+	border: 1px solid #515151 !important;
+	padding: 5px;
+	border-radius: 5px;
+}
+.intranet:hover {
+	border: 1px solid white !important;
 }
 
 /* fin de header */
@@ -266,7 +278,7 @@ nav ul li a:hover{
 /* Inicio de sociales */ 
 
 .sociales {
-  height: 280px;
+  height: 50vh;
   background: #fafafa;
   width: 85vw;
   align-self: center;
@@ -334,7 +346,7 @@ nav ul li a:hover{
 /* Inicio de Footer */ 
 
 footer {
-  height: 280px;
+  height: 50vh;
   background-image: url(../img/dark-bg.png);
   display: flex;
   flex-direction: column;
@@ -373,7 +385,7 @@ footer .campus:last-child {
 
 .desarrollador {
   color: #333;
-  height: 44px;
+  height: 40px;
   background-color: #fdd835;
   display: flex;
   justify-content: space-between;
