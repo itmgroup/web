@@ -10,8 +10,8 @@ $desde= 'form:' .$_POST['email'] ;
 $comentario="
 \n 
 Nombre: $_POST[nombre] \n 
-Email: $_POST[email] \n
-Consulta: $_POST[texto] \n
+Email: $_POST[correo] \n
+Consulta: $_POST[mensaje] \n
 Enviado el $fecha a las $hora\n";
 
 mail($destino,$asunto,$comentario,$desde);
